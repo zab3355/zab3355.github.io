@@ -71,7 +71,7 @@ h6, .h6 {
 a {
   text-decoration: none;
   transition: all 0.2s;
-  color: #000;
+  color: #fff;
 }
 
 img {
@@ -79,7 +79,7 @@ img {
 }
 
 a:hover {
-  color: #635CDB;
+  color: #fc6a09;
   text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ h6 {
 }
 
 .f-color {
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 h5.subtitle {
@@ -162,7 +162,7 @@ h5.subtitle {
 }
 
 .section-title span {
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 .section {
@@ -171,7 +171,7 @@ h5.subtitle {
 
 .line {
   width: 50px;
-  background: #635CDB;
+  background: #fc6a09;
   height: 1px;
   margin: 10px auto;
 }
@@ -200,7 +200,7 @@ h5.subtitle {
 .btn-hero,
 .btn-white:hover {
   color: #fff !important;
-  background: #635CDB;
+  background: #fc6a09;
 }
 
 .btn-hero:focus {
@@ -215,7 +215,7 @@ h5.subtitle {
 
 .btn-black:hover {
   color: #fff;
-  background: #635CDB;
+  background: #fc6a09;
 }
 
 .btn-black:focus {
@@ -275,7 +275,7 @@ h5.subtitle {
 }
 
 .btn-trans-black:hover {
-  background: #635CDB !important;
+  background: #fc6a09 !important;
 }
 
 /*---------- COLORS ----------*/
@@ -289,7 +289,7 @@ h5.subtitle {
 }
 
 .bg-feature {
-  background-color: #635CDB;
+  background-color: #fc6a09;
 }
 
 .bg-primary {
@@ -327,7 +327,7 @@ h5.subtitle {
 }
 
 .feature-overlay {
-  background: #635CDB;
+  background: #fc6a09;
   opacity: .97;
 }
 
@@ -382,10 +382,6 @@ h5.subtitle {
   padding: 0px 24px;
 }
 
-.navbar-expand-lg.trans-navigation .navbar-nav .nav-link:last-child,
-.navbar-expand-lg.site-navigation .navbar-nav .nav-link:last-child {
-  padding-right: 0px;
-}
 
 .site-navigation,
 .trans-navigation {
@@ -408,6 +404,32 @@ h5.subtitle {
   color: #fff;
 }
 
+.navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  padding-right: 0px;
+}
+.navbar-expand-lg.trans-navigation .navbar-nav .nav-link a:after {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '.';
+  color: transparent;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: transparent;
+}
+.navbar-expand-lg.trans-navigation .navbar-nav .nav-link a:hover:after {
+  -webkit-animation: circle 1.5s ease-in forwards;
+}
+
+
 .trans-navigation {
   background: transparent;
 }
@@ -421,7 +443,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white .navbar-nav a.active {
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 .navbar-brand img {
@@ -429,8 +451,32 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white .btn-white {
-  background: #635CDB;
+  background: #fc6a09;
   color: #fff;
+}
+
+nav.circle ul li a {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+nav.circle ul li a:after {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '.';
+  color: transparent;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: transparent;
+}
+nav.circle ul li a:hover:after {
+  -webkit-animation: circle 1.5s ease-in forwards;
 }
 
 /* ===============================
@@ -461,7 +507,7 @@ h5.subtitle {
 .dropdown-item:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #635CDB;
+  background-color: #fc6a09;
 }
 
 .dropdown-toggle::after {
@@ -538,7 +584,7 @@ h5.subtitle {
 
 .banner-content .subtitle {
   color: #fff;
-  background: #635CDB;
+  background: #fc6a09;
   display: inline-block;
   padding: 3px 8px;
   margin-bottom: 20px;
@@ -546,7 +592,7 @@ h5.subtitle {
 }
 
 .subtitle {
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 .banner-content p {
@@ -643,7 +689,7 @@ INner Pages
 
 .intro-box span {
   font-size: 28px;
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 .intro-cta {
@@ -713,7 +759,7 @@ ABOUT PAGE
 -------------------------*/
 .about-list2 li i {
   margin-right: 10px;
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 .icon-3x {
@@ -721,7 +767,7 @@ ABOUT PAGE
 }
 
 .text-default {
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 .team-social li a {
@@ -762,7 +808,7 @@ HISTORY MISSION
 
 .strategy-text span {
   font-size: 61px;
-  color: #635CDB;
+  color: #fc6a09;
   margin-bottom: 15px;
   display: block;
 }
@@ -776,7 +822,7 @@ HISTORY MISSION
   font-weight: 700;
   line-height: 70px;
   margin: 10px 0px;
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 .counter-stat i {
@@ -843,8 +889,8 @@ HISTORY MISSION
   margin: 0 auto;
   border-radius: 100%;
   margin-bottom: 20px;
-  background: #635CDB;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #fc6a09;
+  border: 1px solid #fc6a09;
   color: #fff;
 }
 
@@ -868,7 +914,7 @@ HISTORY MISSION
 }
 
 .service-inner span {
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 /* ================================
@@ -950,7 +996,7 @@ SERVICE PAGE
   display: inline-block;
   border-radius: 100%;
   transition: all .3s ease 0s;
-  color: #635CDB;
+  color: #fc6a09;
   border: 1px solid #eee;
 }
 
@@ -1051,7 +1097,7 @@ PRICING PAGE
 }
 
 .carousel-indicators li.active {
-  background: #635CDB;
+  background: #fc6a09;
 }
 
 .testimonial-content {
@@ -1101,7 +1147,7 @@ PRICING PAGE
 }
 
 .text-color {
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 input[type=text], input[type=email] {
@@ -1200,7 +1246,7 @@ input[type=text], input[type=email] {
 
 .blog-block .read-more,
 .blog-block span {
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 /* =================================
@@ -1244,7 +1290,7 @@ BLOG PAGE
   left: 0px;
   top: 0px;
   font-family: "Font Awesome 5 Free";
-  color: #635CDB;
+  color: #fc6a09;
   font-weight: 900;
 }
 
@@ -1263,7 +1309,7 @@ BLOG PAGE
   top: 0px;
   margin-right: 35px;
   margin-top: 15px;
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 .download a {
@@ -1276,7 +1322,7 @@ BLOG PAGE
 
 .download a i {
   margin-right: 15px;
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 /* ==================================
@@ -1326,7 +1372,7 @@ BLOG SINGLE
 }
 
 .footer-widget h4 span {
-  color: #635CDB;
+  color: #fc6a09;
   display: block;
   font-size: 60px;
   line-height: 60px;
@@ -1370,7 +1416,7 @@ BLOG SINGLE
 }
 
 .footer-text p.mail {
-  color: #635CDB;
+  color: #fc6a09;
 }
 
 .bg-main {
@@ -1406,6 +1452,57 @@ BLOG SINGLE
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
   }
+    
+    
+    
+progress {
+	position: fixed;
+	left: 0;
+	top: 70px;
+	width: 100%;
+	height: 5px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	background-color: transparent;
+	color: #fc6a09;
+	z-index: 999;
+}
+
+progress::-webkit-progress-bar {
+	background-color: transparent;
+	z-index: 999;
+}
+
+progress::-webkit-progress-value {
+	background-color: #fc6a09;
+	z-index: 999;
+}
+
+progress::-moz-progress-bar {
+	background-color: #fc6a09;
+	z-index: 999;
+}
+
+.progress-container {
+	width: 100%;
+	background-color: transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 5px;
+	display: block;
+	z-index: 999;
+}
+
+.progress-bar {
+	background-color: #fc6a09;
+	width: 0%;
+	display: block;
+	height: inherit;
+	z-index: 999;
+}
   /*----------------------
      SECTION HEAINDG
     -----------------------*/
