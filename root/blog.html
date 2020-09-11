@@ -1,378 +1,564 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
-  <head>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Fiction Multipage Bootstrap Template</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-    <!-- ThemeFisher Icon -->
-    <link rel="stylesheet" href="plugins/themefisher-fonts/themefisher-fonts.css">
-    <!-- Light Box -->
-    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
-    <!-- animation css -->
-    <link rel="stylesheet" href="plugins/animate/animate.css">
-    <!-- slick slider -->
-    <link rel="stylesheet" href="plugins/slick/slick.css">
-
-    <!-- Revolution Slider -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Steve Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map_canvas {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-    </style>
-    <script src="plugins/modernizr.min.js"></script>
-  </head>
-  <body>
-    <!--[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+<body>
 
-  <!-- Loader to display before content Load-->
-  <div class="loading">
-
-    <!-- <img src="img/loader.gif" alt=""> -->
-
-    <div class="windows8 loading-position">
-      <div class="wBall" id="wBall_1">
-        <div class="wInnerBall"></div>
-      </div>
-      <div class="wBall" id="wBall_2">
-        <div class="wInnerBall"></div>
-      </div>
-      <div class="wBall" id="wBall_3">
-        <div class="wInnerBall"></div>
-      </div>
-      <div class="wBall" id="wBall_4">
-        <div class="wInnerBall"></div>
-      </div>
-      <div class="wBall" id="wBall_5">
-        <div class="wInnerBall"></div>
-      </div>
-    </div>
-  </div> 
-
-
-<section class="page-header services-header" data-parallax="scroll" data-image-src="images/header/blog-folding-img.jpg">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="text-center">Our Blogs. <br> We Ensure Quality Design.</h1>
-      </div>
-    </div>
-  </div>
-</section>
-
- <!-- Navigation -section
-  =========================-->
-<nav class="navbar navbar-fixed-top navigation" >
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand logo" href="index.html">
-        <img src="images/logo-yellow.png" alt="">
-      </a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav navbar-right menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Service</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div>
-</nav>
-
-  
-  <!-- Blog Sections 
-  =========================-->
-  <section class="blog">
-    <div class="container">
-      <div class="row">
-        <div class="title text-center">
-          <h2>Our Blog</h2>
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav justify-content-end">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+                            <li class="nav-item submenu dropdown">
+                                <a class="nav-link" href="#">Portfolio</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portrfolio
+                                            Details</a>
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a>
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <div class="col-md-9">
-          <!-- Blog Left Sections 
-          =========================-->
+    </header>
+    <!--================Header Menu Area =================-->
 
-            <!-- If you use to 1 by 1 section to blog content left or right use class
-              blog content left is default but you use blog content right side 
-              you mast use class="blog-content-right" class with blog-list-section div
-             -->
-            <!-- Blog List Only Image
-            ========================= -->
-            <div class="blog-list-section blog-content-right row">
-              <div class="col-md-9 blog-content-area">
-                <div class="blog-img">
-                  <img class="img-responsive" src="images/blog/blog-img1.jpg" alt="">      
+    <!--================Home Banner Area =================-->
+    <section class="banner-area owl-carousel" id="home">
+        <div class="single_slide_banner slide_bg1">
+            <div class="container">
+                <div class="row fullscreen d-flex align-items-center">
+                    <div class="banner-content col-lg-12 justify-content-center">
+                        <h1>Steve Henriques</h1>
+                        <h3>Personal portfolio Website</h3>
+                        <a href="#" class="primary-btn">Hire Me</a>
+                    </div>
                 </div>
-                <div class="blog-content">
-                  <a href="blog-single.html"><h4 class="blog-title">A Complete, Ranke Destinat Moines’ <br /> Good Bars,Benefit of the t Media Elite</h4></a>
-                  <div class="meta">
-                    <div class="date">
-                      <p>22<sup>nd</sup>Jan 2016</p>
-                    </div>
-                    <div class="author">
-                      <p>By Michal Lomans</p>
-                    </div>
-                  </div>
-                  <p class="blog-decisions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum euismod tincidunt ut laoreet dolore magna autem vel eum iriure dolor in.</p>
-                  <a class="btn btn-default th-btn solid-btn" href="blog-single.html" role="button">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>  
-
-            <!-- Blog List Slider Image
-            ========================= -->
-            <div class="blog-list-section blog-content-left row">
-              <div class="col-md-9 blog-content-area">
-                <!-- Blog slider -->
-                <div id="blog-slider" class="blog-slider">
-                  <div class="item">
-                    <div class="blog-img">
-                      <img class="img-responsive" src="images/blog/blog-img2.jpg" alt="">
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="blog-img">
-                      <img class="img-responsive" src="images/blog/blog-img1.jpg" alt="">
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="blog-img">
-                      <img class="img-responsive" src="images/blog/blog-img3.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="blog-content">
-                  <a href="blog-single.html"><h4 class="blog-title">A Complete, Ranke Destinat Moines’ <br /> Good Bars.</h4></a>
-                  <div class="meta">
-                    <div class="date">
-                      <p>22<sup>nd</sup>Jan 2016</p>
-                    </div>
-                    <div class="author">
-                      <p>By Michal Lomans</p>
-                    </div>
-                  </div>
-                  <p class="blog-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum euismod tincidunt ut laoreet dolore magna autem vel eum iriure dolor in.</p>
-                  <a class="btn btn-default th-btn solid-btn" href="blog-single.html" role="button">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>  
-            
-              <!-- Blog List Video Image
-              ========================= -->
-            <div class="blog-list-section row">
-              <div class="col-md-9 blog-content-area">
-                <div class="video-section">
-                  <img class="img-responsive" src="images/blog/blog-img3.jpg" alt="">
-                  <div class="video-overlay">
-                    <a id="th-video" class="th-video" href="blog-single.html"><i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-                <div class="blog-content">
-                  <a href="blog-single.html"><h4 class="blog-title">A Complete, Ranke Destinat Moines’ <br /> Good Bars,Benefit of the t Media Elite</h4></a>
-                  <div class="meta">
-                    <div class="date">
-                      <p>22<sup>nd</sup>Jan 2016</p>
-                    </div>
-                    <div class="author">
-                      <p>By Michal Lomans</p>
-                    </div>
-                  </div>
-                  <p class="blog-decisions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum euismod tincidunt ut laoreet dolore magna autem vel eum iriure dolor in.</p>
-                  <a class="btn btn-default th-btn solid-btn" href="blog-single.html" role="button">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
             </div>
-
-          <!-- See All Post -->
-          <div class="col-md-12">
-            <div class="see-all-post text-center">
-              <a class="btn btn-default th-btn solid-btn" href="#" role="button">See All Posts <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="single_slide_banner slide_bg2">
+            <div class="container">
+                <div class="row fullscreen d-flex align-items-center">
+                    <div class="banner-content col-lg-12 justify-content-center">
+                        <h1>Steve Henriques</h1>
+                        <h3>Personal portfolio Website</h3>
+                        <a href="#" class="primary-btn">Hire Me</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-md-3">
-          <!-- Blog Right Sections 
-          =========================-->
-          	<div class="blog-sidbar">
-		<div class="search widgets">
-			<form class="form-inline">
-			  <div class="form-group search-input">
-			    <input type="text" class="form-control" placeholder="Search ...">
-			  </div>
-			  <button type="submit" class="btn btn-default tf-search-btn"><i class="tf-search"></i></button>
-			</form>
-		</div>
-		<div class="categories widgets">
-			<div class="list-group text-center">
-				<div class="list-group-item active"> Blog Categories </div>
-				<a href="#" class="list-group-item">Web Design</a>
-				<a href="#" class="list-group-item">User Interface</a>
-				<a href="#" class="list-group-item">User Experience</a>
-				<a href="#" class="list-group-item">Typography</a>
-				<a href="#" class="list-group-item">Color Sense</a>
-				<a href="#" class="list-group-item">Future Trend</a>
-				<a href="#" class="list-group-item">Modern Design</a>
-			</div>
-		</div>
-		<div class="related-post widgets">
-			<div class="list-group">
-				<div class="list-group-item active text-center">
-				Related Post
-				</div>
-				<a href="#" class="list-group-item">
-					<div class="media">
-					  <div class="media-left media-middle"><p class="post-count">1</p></div>
-					  <div class="media-body">
-					    <p>Typography is  important fact for liusto odio dolore.</p>
-					  </div>
-					</div>
-				</a>
-				<a href="#" class="list-group-item">
-					<div class="media">
-					  <div class="media-left media-middle"><p class="post-count">2</p></div>
-					  <div class="media-body">
-					    <p>Typography is  important fact for liusto odio dolore.</p>
-					  </div>
-					</div>
-				</a>
-				<a href="#" class="list-group-item">
-					<div class="media">
-					  <div class="media-left media-middle"><p class="post-count">3</p></div>
-					  <div class="media-body">
-					    <p>Typography is  important fact for liusto odio dolore.</p>
-					  </div>
-					</div>
-				</a>
-				<a href="#" class="list-group-item">
-					<div class="media">
-					  <div class="media-left media-middle"><p class="post-count">4</p></div>
-					  <div class="media-body">
-					    <p>Typography is  important fact for liusto odio dolore.</p>
-					  </div>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
+        <div class="single_slide_banner slide_bg3">
+            <div class="container">
+                <div class="row fullscreen justify-content-endd-flex align-items-center">
+                    <div class="banner-content col-lg-12 justify-content-center">
+                        <h1>Steve Henriques</h1>
+                        <h3>Personal portfolio Website</h3>
+                        <a href="#" class="primary-btn">Hire Me</a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+    <!--================End Home Banner Area =================-->
 
-      </div>
-    </div>
-  </section>
-
-    <footer class="footer">
+    <!--================Blog Categorie Area =================-->
+    <section class="blog_categorie_area">
         <div class="container">
             <div class="row">
-                <div class="container">
-                    <div class="footer-top">
-                        <div class="col-md-4">
-                            <!-- footer About section
-                            ========================== -->
-                            <div class="footer-about">
-                                <h3 class="footer-title">About</h3>
-                                <p>Nemo enim ipsam voluptatem quia voluptas <br>
-                                    sit aspernatur aut odit aut fugit, sed quia <br>
-                                    magni dolores eos qui ratione. ed quia <br>
-                                    magni dolores</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <!-- footer Address section
-                            ========================== -->
-                            <div class="footer-address">
-                                <h3 class="footer-title">Address</h3>
-                                <p>DeviserWeb 24/A,Jalalabad amborkhana amagnina, Sylhet.</p>
-                                <p class="contact-address">
-                                    Contact us : <a href="tel:+610383666274">+61 (0) 3 8366 6274 </a> <br>
-                                    Write us : <a href="mailto:info@info.com">mail@itsnuman.com</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <!-- footer Media link section
-                            ========================== -->
-                            <div class="footer-social-media">
-                                <h3 class="footer-title">Keep in touch</h3>
-                                <ul class="footer-media-link">
-                                    <li><a href="#"><i class="tf-ion-social-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="tf-ion-social-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="tf-ion-social-linkedin-outline"
-                                                aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="tf-ion-social-google-outline" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="tf-ion-social-instagram-outline"
-                                                aria-hidden="true"></i></a></li>
-                                </ul>
+                <div class="col-lg-4">
+                    <div class="categories_post">
+                        <img src="img/blog/cat-post/cat-post-3.jpg" alt="post">
+                        <div class="categories_details">
+                            <div class="categories_text">
+                                <a href="single-blog.html">
+                                    <h5>Social Life</h5>
+                                </a>
+                                <div class="border_line"></div>
+                                <p>Enjoy your social life together</p>
                             </div>
                         </div>
                     </div>
-                    <div class="footer-nav text-center">
-                        <div class="col-md-12">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="#">Our Team</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                </div>
+                <div class="col-lg-4">
+                    <div class="categories_post">
+                        <img src="img/blog/cat-post/cat-post-2.jpg" alt="post">
+                        <div class="categories_details">
+                            <div class="categories_text">
+                                <a href="single-blog.html">
+                                    <h5>Politics</h5>
+                                </a>
+                                <div class="border_line"></div>
+                                <p>Be a part of politics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="categories_post">
+                        <img src="img/blog/cat-post/cat-post-1.jpg" alt="post">
+                        <div class="categories_details">
+                            <div class="categories_text">
+                                <a href="single-blog.html">
+                                    <h5>Food</h5>
+                                </a>
+                                <div class="border_line"></div>
+                                <p>Let the food be finished</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================Blog Categorie Area =================-->
+
+    <!--================Blog Area =================-->
+    <section class="blog_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="blog_left_sidebar">
+                        <article class="row blog_item">
+                            <div class="col-md-3">
+                                <div class="blog_info text-right">
+                                    <div class="post_tag">
+                                        <a href="#">Food,</a>
+                                        <a class="active" href="#">Technology,</a>
+                                        <a href="#">Politics,</a>
+                                        <a href="#">Lifestyle</a>
+                                    </div>
+                                    <ul class="blog_meta list">
+                                        <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
+                                        <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
+                                        <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
+                                        <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="blog_post">
+                                    <img src="img/blog/main-blog/m-blog-1.jpg" alt="">
+                                    <div class="blog_details">
+                                        <a href="single-blog.html">
+                                            <h2>Astronomy Binoculars A Great Alternative</h2>
+                                        </a>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not
+                                            understand why you should have to spend money on boot camp when you can get
+                                            the MCSE study materials yourself at a fraction.</p>
+                                        <a href="single-blog.html" class="primary_btn">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="row blog_item">
+                            <div class="col-md-3">
+                                <div class="blog_info text-right">
+                                    <div class="post_tag">
+                                        <a href="#">Food,</a>
+                                        <a class="active" href="#">Technology,</a>
+                                        <a href="#">Politics,</a>
+                                        <a href="#">Lifestyle</a>
+                                    </div>
+                                    <ul class="blog_meta list">
+                                        <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
+                                        <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
+                                        <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
+                                        <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="blog_post">
+                                    <img src="img/blog/main-blog/m-blog-2.jpg" alt="">
+                                    <div class="blog_details">
+                                        <a href="single-blog.html">
+                                            <h2>The Basics Of Buying A Telescope</h2>
+                                        </a>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not
+                                            understand why you should have to spend money on boot camp when you can get
+                                            the MCSE study materials yourself at a fraction.</p>
+                                        <a href="single-blog.html" class="primary_btn">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="row blog_item">
+                            <div class="col-md-3">
+                                <div class="blog_info text-right">
+                                    <div class="post_tag">
+                                        <a href="#">Food,</a>
+                                        <a class="active" href="#">Technology,</a>
+                                        <a href="#">Politics,</a>
+                                        <a href="#">Lifestyle</a>
+                                    </div>
+                                    <ul class="blog_meta list">
+                                        <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
+                                        <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
+                                        <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
+                                        <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="blog_post">
+                                    <img src="img/blog/main-blog/m-blog-3.jpg" alt="">
+                                    <div class="blog_details">
+                                        <a href="single-blog.html">
+                                            <h2>The Glossary Of Telescopes</h2>
+                                        </a>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not
+                                            understand why you should have to spend money on boot camp when you can get
+                                            the MCSE study materials yourself at a fraction.</p>
+                                        <a href="single-blog.html" class="primary_btn">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="row blog_item">
+                            <div class="col-md-3">
+                                <div class="blog_info text-right">
+                                    <div class="post_tag">
+                                        <a href="#">Food,</a>
+                                        <a class="active" href="#">Technology,</a>
+                                        <a href="#">Politics,</a>
+                                        <a href="#">Lifestyle</a>
+                                    </div>
+                                    <ul class="blog_meta list">
+                                        <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
+                                        <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
+                                        <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
+                                        <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="blog_post">
+                                    <img src="img/blog/main-blog/m-blog-4.jpg" alt="">
+                                    <div class="blog_details">
+                                        <a href="single-blog.html">
+                                            <h2>The Night Sky</h2>
+                                        </a>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not
+                                            understand why you should have to spend money on boot camp when you can get
+                                            the MCSE study materials yourself at a fraction.</p>
+                                        <a href="single-blog.html" class="primary_btn">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="row blog_item">
+                            <div class="col-md-3">
+                                <div class="blog_info text-right">
+                                    <div class="post_tag">
+                                        <a href="#">Food,</a>
+                                        <a class="active" href="#">Technology,</a>
+                                        <a href="#">Politics,</a>
+                                        <a href="#">Lifestyle</a>
+                                    </div>
+                                    <ul class="blog_meta list">
+                                        <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
+                                        <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
+                                        <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
+                                        <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="blog_post">
+                                    <img src="img/blog/main-blog/m-blog-5.jpg" alt="">
+                                    <div class="blog_details">
+                                        <a href="single-blog.html">
+                                            <h2>Telescopes 101</h2>
+                                        </a>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not
+                                            understand why you should have to spend money on boot camp when you can get
+                                            the MCSE study materials yourself at a fraction.</p>
+                                        <a href="single-blog.html" class="primary_btn">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <nav class="blog-pagination justify-content-center d-flex">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a href="#" class="page-link" aria-label="Previous">
+                                        <span aria-hidden="true">
+                                            <span class="lnr lnr-chevron-left"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a href="#" class="page-link">01</a></li>
+                                <li class="page-item active"><a href="#" class="page-link">02</a></li>
+                                <li class="page-item"><a href="#" class="page-link">03</a></li>
+                                <li class="page-item"><a href="#" class="page-link">04</a></li>
+                                <li class="page-item"><a href="#" class="page-link">09</a></li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link" aria-label="Next">
+                                        <span aria-hidden="true">
+                                            <span class="lnr lnr-chevron-right"></span>
+                                        </span>
+                                    </a>
+                                </li>
                             </ul>
-                        </div>
+                        </nav>
                     </div>
-                    <div class="text-center">
-                        <div class="col-md-12">
-                            <div class="copyright">
-                                <p>&copy; 2013-2017 All rights reserved. <br>
-                                    Design and Developed By <a href="https://themefisher.com">Themefisher.com</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog_right_sidebar">
+                        <aside class="single_sidebar_widget search_widget">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search Posts">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button"><i class="lnr lnr-magnifier"></i></button>
+                                </span>
+                            </div><!-- /input-group -->
+                            <div class="br"></div>
+                        </aside>
+                        <aside class="single_sidebar_widget author_widget">
+                            <img class="author_img rounded-circle" src="img/blog/author.png" alt="">
+                            <h4>Charlie Barber</h4>
+                            <p>Senior blog writer</p>
+                            <div class="social_icon">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                                <a href="#"><i class="fa fa-behance"></i></a>
                             </div>
+                            <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you
+                                should have to spend money on boot camp when you can get. Boot camps have itssuppor
+                                ters andits detractors.</p>
+                            <div class="br"></div>
+                        </aside>
+                        <aside class="single_sidebar_widget popular_post_widget">
+                            <h3 class="widget_title">Popular Posts</h3>
+                            <div class="media post_item">
+                                <img src="img/blog/popular-post/post1.jpg" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3>Space The Final Frontier</h3>
+                                    </a>
+                                    <p>02 Hours ago</p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="img/blog/popular-post/post2.jpg" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3>The Amazing Hubble</h3>
+                                    </a>
+                                    <p>02 Hours ago</p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="img/blog/popular-post/post3.jpg" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3>Astronomy Or Astrology</h3>
+                                    </a>
+                                    <p>03 Hours ago</p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="img/blog/popular-post/post4.jpg" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3>Asteroids telescope</h3>
+                                    </a>
+                                    <p>01 Hours ago</p>
+                                </div>
+                            </div>
+                            <div class="br"></div>
+                        </aside>
+                        <aside class="single_sidebar_widget ads_widget">
+                            <a href="#"><img class="img-fluid" src="img/blog/add.jpg" alt=""></a>
+                            <div class="br"></div>
+                        </aside>
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h4 class="widget_title">Post Catgories</h4>
+                            <ul class="list cat-list">
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Technology</p>
+                                        <p>37</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Lifestyle</p>
+                                        <p>24</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Fashion</p>
+                                        <p>59</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Art</p>
+                                        <p>29</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Food</p>
+                                        <p>15</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Architecture</p>
+                                        <p>09</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Adventure</p>
+                                        <p>44</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="br"></div>
+                        </aside>
+                        <aside class="single-sidebar-widget newsletter_widget">
+                            <h4 class="widget_title">Newsletter</h4>
+                            <p>
+                                Here, I focus on a range of items and features that we use in life without
+                                giving them a second thought.
+                            </p>
+                            <div class="form-group d-flex flex-row">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'">
+                                </div>
+                                <a href="#" class="bbtns">Subcribe</a>
+                            </div>
+                            <p class="text-bottom">You can unsubscribe at any time</p>
+                            <div class="br"></div>
+                        </aside>
+                        <aside class="single-sidebar-widget tag_cloud_widget">
+                            <h4 class="widget_title">Tag Clouds</h4>
+                            <ul class="list">
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">Architecture</a></li>
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">Lifestyle</a></li>
+                                <li><a href="#">Art</a></li>
+                                <li><a href="#">Adventure</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Lifestyle</a></li>
+                                <li><a href="#">Adventure</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================Blog Area =================-->
+
+    <!-- ================ Start Footer Area ================= -->
+    <footer class="footer_area section_gap">
+        <div class="container">
+            <div class="row footer_inner justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <aside class="f_widget social_widget">
+                        <div class="f_logo">
+                            <img src="img/logo.png" alt="">
                         </div>
+                        <div class="f_title">
+                            <h4>Follow Me</h4>
+                        </div>
+                        <ul class="list">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        </ul>
+                    </aside>
+                    <div class="copyright">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <!--================End Footer Area =================-->
 
 
-    <script src="plugins/jquery.min.js"></script>
 
-    <script src="plugins/bootstrap/bootstrap.min.js"></script>
-    <!-- slick slider -->
-    <script src="plugins/slick/slick.min.js"></script>
-    <!-- filter -->
-    <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
-    <!-- Lightbox -->
-    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- Parallax -->
-    <script src="plugins/parallax.min.js"></script>
-    <!-- Video -->
-    <script src="plugins/jquery.vide.js"></script>
-    <!-- google map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
-    <script src="plugins/google-map/gmap.js"></script>
 
-    <script src="js/script.js"></script>
-    </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/theme.js"></script>
+</body>
 
-    </html>
+</html>
