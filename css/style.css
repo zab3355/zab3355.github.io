@@ -220,6 +220,7 @@ button:focus {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
         color: #f37b24; }
+
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -274,7 +275,7 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #e45447;
+              background: #f37b24;
               color: #fff; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
@@ -304,6 +305,9 @@ button:focus {
       .header_area.white_menu .navbar .navbar-brand img + img {
         display: inline-block; } }
   @media (max-width: 991px) {
+    .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
+        color: #000;
+    }
     .header_area.white_menu .navbar .navbar-brand img {
       display: inline-block; }
       .header_area.white_menu .navbar .navbar-brand img + img {
@@ -1205,7 +1209,7 @@ button:focus {
     transition: all 0.4s ease 0s; }
     .comments-area .btn-reply:hover {
       border: transparent;
-      background: #e45447;
+      background: #f37b24;
       color: #fff; }
 
 .comment-form {
@@ -1281,7 +1285,7 @@ button:focus {
     top: 0;
     font-size: 20px;
     line-height: 24px;
-    color: #e45447;
+    color: #f37b24;
     font-weight: 600; }
   .contact_info .info_item h6 {
     font-size: 16px;
@@ -1323,10 +1327,10 @@ button:focus {
     .contact_form .form-group textarea.form-control {
       height: 134px; }
 .contact_form .primary-btn {
-  background: #e45447;
+  background: #f37b24;
   color: #fff;
   margin-top: 20px;
-  border: 2px solid #e45447; }
+  border: 2px solid #f37b24; }
   .contact_form .primary-btn:hover {
     color: #000;
     border: 2px solid #90acd1;
@@ -2632,7 +2636,7 @@ h6 {
       .testimonial_area .testimonial_logos {
         display: none; } }
   .testimonial_area .active_testimonial .owl-dots {
-    background: #e45447;
+    background: #f37b24;
     height: 25px;
     width: 100px;
     position: absolute;
@@ -2751,7 +2755,7 @@ h6 {
     text-transform: uppercase;
     background: #ffd200; }
     .newsletter_form .navbar-form .genric-btn:hover {
-      background-color: #e45447;
+      background-color: #f37b24;
       color: #ffffff; }
 
 /* End Newsletter Area css
@@ -2879,7 +2883,7 @@ h6 {
   .social_widget .list li:last-child {
     margin-right: 0px; }
   .social_widget .list li:hover a {
-    color: #e45447; }
+    color: #f37b24; }
 
 .f_logo {
     background: url("img/logolong.png") no-repeat;
