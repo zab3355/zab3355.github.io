@@ -98,10 +98,16 @@ button:focus {
 
 /* Main Title Area css
 ============================================================================================ */
-.banner-title {
+.typewrite {
     color: #fff;
     font-weight: 900;
 }
+
+.typewrite:hover {
+    color: #f37b24;
+    font-weight: 900;
+}
+
 .main-title {
   text-align: center;
   margin-bottom: 75px; }
@@ -337,18 +343,17 @@ button:focus {
   @media (max-width: 680px) {
     .banner-content {
       padding: 48px 20px;
-      background: #fff;
       margin: 0 15px; } }
   .banner-content .primary-btn {
-    background: #e45447;
+    background: #f37b24;
     border: 2px solid transparent;
     color: #fff; }
     .banner-content .primary-btn:hover {
       background: transparent;
-      border-color: #e45447;
-      color: #000; }
+      border-color: #fff;
+      color: #fff; }
   .banner-content h1 {
-    color: #000;
+    color: #fff;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px; }
