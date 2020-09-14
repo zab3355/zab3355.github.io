@@ -98,6 +98,10 @@ button:focus {
 
 /* Main Title Area css
 ============================================================================================ */
+.banner-title {
+    color: #fff;
+    font-weight: 900;
+}
 .main-title {
   text-align: center;
   margin-bottom: 75px; }
@@ -316,7 +320,7 @@ button:focus {
   background-size: cover;
   background-repeat: no-repeat; }
 .banner-area .slide_bg1 {
-  background: url(../img/banner/banner-bg1.jpg); }
+  background: url(../img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg); }
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
