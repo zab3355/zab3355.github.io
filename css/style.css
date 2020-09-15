@@ -328,9 +328,14 @@ button:focus {
 ============================================================================================ */
 .banner-area .single_slide_banner {
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; 
+}
 .banner-area .slide_bg1 {
-  background: url(../img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg); }
+  background: url(../img/banner/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;}
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
@@ -385,11 +390,16 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 400px;
-    background-image: url(../img/banner/common-banner.jpg);
+    background-image: url(../img/banner/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg);
     background-size: cover;
-    z-index: 1; }
+    z-index: 1; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top-center;
+  background-repeat: no-repeat;
+  background-size: cover;}
     .banner_area .banner_inner .banner_content h1 {
-      color: #000;
+      color: #fff;
       font-size: 60px;
       margin-bottom: 20px;
       text-transform: capitalize;
@@ -1275,6 +1285,10 @@ button:focus {
 .mapBox {
   height: 420px;
   margin-top: 80px; }
+
+.contact-white{
+    color: #fff;
+}
 
 .contact_info .info_item {
   position: relative;
@@ -2604,7 +2618,7 @@ h6 {
       padding-bottom: 0px; } }
 @media (max-width: 991px) {
   .about-area .about-left {
-    display: none; } }
+    width: 80%; } }
 .about-area .primary-btn {
   margin-top: 40px; }
 

@@ -37,13 +37,13 @@
     items: 1,
     autoplay: 2500,
     autoplayTimeout: 5000,
-    loop: true,
+    loop: false,
     nav: false,
     dots: false
   });
 
   $(".active_testimonial").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 0,
     items: 1,
     nav: false,

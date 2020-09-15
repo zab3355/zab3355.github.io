@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Steve Portfolio</title>
+	<title>Zachary Brown | Design & Development</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -41,13 +41,9 @@
 							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
 							<li class="nav-item submenu dropdown active">
-								<a class="nav-link" href="#">Portfolio</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item "><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-									<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portrfolio Details</a>
-								</ul>
+								<a class="nav-link" href="portfolio.html">Portfolio</a>
 							</li>
-							<li class="nav-item submenu dropdown">
+							<!--<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Pages</a>
 								<ul class="dropdown-menu">
@@ -61,7 +57,8 @@
 									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
 								</ul>
-							</li>
+							</li>-->
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -76,26 +73,22 @@
 		<div class="banner_inner d-flex align-items-center">
 			<div class="container">
 				<div class="banner_content text-right">
-					<h1>My Portfolio</h1>
-					<div class="page_link">
-						<a href="index.html">Home</a>
-						<a href="portfolio.html">Portfolio</a>
-					</div>
+					<h1>Projects</h1>
+					
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--================ End Portfolio Banner Area =================-->
 
-	<!--================ Start Portfolio Area =================-->
+		<!--================ Start Portfolio Area =================-->
 	<section class="section_gap portfolio_area" id="work">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-6 text-center">
 					<div class="main-title">
-						<h1>Latest Works</h1>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may
-							see some for as low as $.17 each.</p>
+						<h1>View Projects</h1>
+						<p></p>
 					</div>
 				</div>
 			</div>
@@ -103,105 +96,151 @@
 				<div class="col-lg-10">
 					<div class="projects_fillter">
 						<ul class="filter list">
-							<li class="active" data-filter="*">All Categories</li>
-							<li data-filter=".brand">Branding</li>
-							<li data-filter=".work">Creative Work </li>
-							<li data-filter=".web">Web Design</li>
+							<!--<li class="active" data-filter="*">All Categories</li> -->
+							<li class="active" data-filter=".work">Work Experience</li>
+						<!--	<li data-filter=".work">Work Experience</li>-->
+							<li data-filter=".personal">Personal Projects</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 			<div class="projects_inner row grid">
 				<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
-				<div class="col-lg-6 col-sm-6 col-sm-12 brand web grid-item">
+				<div class="col-lg-6 col-sm-6 col-sm-12 work grid-item">
 					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/work1.jpg" alt="">
+						<img class="img-fluid w-100" src="img/works/full/plain/wegmans.jpg" alt="">
+						<div class="projects_text">
+							<a href="wegmans-details.html">
+								<h4>Wegmans</h4>
+							</a>
+							<p>JavaScript | PHP | JQuery | HTML | CSS | C# | Azure Services</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-sm-6 col-sm-12 work grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="img/works/full/plain/osmose.jpg" alt="">
+						<div class="projects_text">
+							<a href="osmose-details.html">
+								<h4>Osmose Utilities Services</h4>
+							</a>
+							<p>JavaScript | PHP | JQuery | HTML | CSS | C# | SQL</p>
+						</div>
+					</div>
+				</div>
+                <div class="col-lg-6 col-sm-6 col-sm-12 work grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="img/works/full/plain/restaurantdata.jpg" alt="">
 						<div class="projects_text">
 							<a href="portfolio-details.html">
-								<h4>2D Vinyl Design</h4>
+								<h4>Restaurant Data</h4>
+							</a>
+							<p>JavaScript | PHP | HTML | CSS | C#</p>
+						</div>
+					</div>
+				</div>
+            <div class="col-lg-6 col-sm-6 col-sm-12 work grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="img/works/full/sandbox.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>Sandbox Union</h4>
+							</a>
+							<p>JavaScript | PHP | HTML | CSS | C#</p>
+						</div>
+					</div>
+				</div>
+                
+				<div class="col-lg-6 col-sm-6 col-sm-12 personal grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="img/works/NEW/Eventmanagement.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>Event Management System</h4>
+							</a>
+							<p>JavaScript | PHP | JQuery | HTML | CSS | C# </p>
+						</div>
+					</div>
+				</div>
+                <div class="col-lg-6 col-sm-6 col-sm-12 personal grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="img/works/NEW/asteroidsnewhover.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>Abstract Asteroids</h4>
+							</a>
+							<p>JavaScript | PHP | JQuery | HTML | CSS</p>
+						</div>
+					</div>
+				</div>
+                <div class="col-lg-6 col-sm-6 col-sm-12 personal grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="img/works/NEW/audiovisualizernew.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>Dubstep Visualizer</h4>
 							</a>
 							<p>Client Project</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6 col-sm-12 brand work grid-item">
+				<div class="col-lg-6 col-sm-6 col-sm-12 personal grid-item">
 					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/work2.jpg" alt="">
+						<img class="img-fluid w-100" src="img/works/NEW/weathernew.jpg" alt="">
 						<div class="projects_text">
 							<a href="portfolio-details.html">
-								<h4>2D Vinyl Design</h4>
+								<h4>Weather Watcher</h4>
 							</a>
-							<p>Client Project</p>
+							<p>JavaScript | HTML | CSS </p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6 work grid-item">
+                <div class="col-lg-6 col-sm-6 col-sm-12 personal grid-item">
 					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/work3.jpg" alt="">
+						<img class="img-fluid w-100" src="img/works/NEW/colornewhover.jpg" alt="">
 						<div class="projects_text">
 							<a href="portfolio-details.html">
-								<h4>2D Vinyl Design</h4>
+								<h4>Colors</h4>
 							</a>
-							<p>Client Project</p>
+							<p>Adobe Suite</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 brand work grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/work5.jpg" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details.html">
-								<h4>2D Vinyl Design</h4>
-							</a>
-							<p>Client Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 brand web grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/work4.jpg" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details.html">
-								<h4>2D Vinyl Design</h4>
-							</a>
-							<p>Client Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 brand work web grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/work8.jpg" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details.html">
-								<h4>2D Vinyl Design</h4>
-							</a>
-							<p>Client Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 brand work web grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/work6.jpg" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details.html">
-								<h4>2D Vinyl Design</h4>
-							</a>
-							<p>Client Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 brand work web grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/work7.jpg" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details.html">
-								<h4>2D Vinyl Design</h4>
-							</a>
-							<p>Client Project</p>
-						</div>
-					</div>
-				</div>
 			</div>
+
+                <div class="col-lg-6 col-sm-6 col-sm-12 personal grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="img/works/NEW/wwwDotnewhover.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>wwwDot</h4>
+							</a>
+							<p>JavaScript | PHP | JQuery | HTML | CSS </p>
+						</div>
+					</div>
+				</div>
+                <div class="col-lg-6 col-sm-6 col-sm-12 personal grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="img/works/NEW//androidapphover.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>Android App Development</h4>
+							</a>
+							<p>Xamarin(C#) | Swift</p>
+						</div>
+					</div>
+			</div>
+				<div class="col-lg-6 col-sm-6 col-sm-12 personal grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="img/works/NEW/coffeeapphover.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>Coffee Curfew</h4>
+							</a>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>                
+            </div>
 		</div>
 	</section>
 	<!--================ End Portfolio Area =================-->
