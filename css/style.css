@@ -529,47 +529,47 @@ button:focus {
 
 /* End Projects Area css
 ============================================================================================ */
-/* Portfolio Details Area css
+/* Projects Details Area css
 ============================================================================================ */
-.portfolio_details_inner .row {
+.Projects_details_inner .row {
   margin-bottom: 65px; }
   @media (max-width: 480px) {
-    .portfolio_details_inner .row {
+    .Projects_details_inner .row {
       margin-bottom: 30px; } }
-.portfolio_details_inner p {
+.Projects_details_inner p {
   margin-bottom: 30px;
   font-size: 14px; }
-  .portfolio_details_inner p:last-child {
+  .Projects_details_inner p:last-child {
     margin-bottom: 0px; }
-.portfolio_details_inner .portfolio_right_text {
+.Projects_details_inner .Projects_right_text {
   margin-top: 50px; }
   @media (max-width: 991px) {
-    .portfolio_details_inner .portfolio_right_text {
+    .Projects_details_inner .Projects_right_text {
       margin-top: 0px; } }
   @media (max-width: 576px) {
-    .portfolio_details_inner .portfolio_right_text {
+    .Projects_details_inner .Projects_right_text {
       margin-top: 50px; } }
-  .portfolio_details_inner .portfolio_right_text h4 {
+  .Projects_details_inner .Projects_right_text h4 {
     color: #222222;
     font-size: 21px;
     margin-bottom: 18px;
     font-weight: 700; }
-  .portfolio_details_inner .portfolio_right_text p {
+  .Projects_details_inner .Projects_right_text p {
     margin-bottom: 25px;
     font-size: 14px; }
-  .portfolio_details_inner .portfolio_right_text .list li {
+  .Projects_details_inner .Projects_right_text .list li {
     margin-bottom: 7px;
     font-weight: normal;
     font-size: 14px; }
-    .portfolio_details_inner .portfolio_right_text .list li span {
+    .Projects_details_inner .Projects_right_text .list li span {
       font-size: 14px;
       color: #000;
       font-weight: 400;
       width: 97px;
       display: inline-block; }
-    .portfolio_details_inner .portfolio_right_text .list li:last-child {
+    .Projects_details_inner .Projects_right_text .list li:last-child {
       margin-bottom: 0px; }
-    .portfolio_details_inner .portfolio_right_text .list li i {
+    .Projects_details_inner .Projects_right_text .list li i {
       color: #f1cd09; }
 
 .social_details {
@@ -589,7 +589,7 @@ button:focus {
     .social_details li:last-child {
       margin-right: 0px; }
 
-/* End Portfolio Details Area css
+/* End Projects Details Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -1952,7 +1952,7 @@ h6 {
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
-  height: 200px;
+  height: 1100px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
