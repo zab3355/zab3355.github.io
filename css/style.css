@@ -1961,6 +1961,22 @@ h6 {
 .single-gallery-image:hover {
   opacity: 0.8; }
 
+.single-gallery-image-art {
+  margin-top: -80px;
+  margin-bottom: -80px;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: contain !important;
+  height: 400px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+}
+.single-gallery-image-art:hover {
+  opacity: 0.8; }
+
 .list-style {
   width: 14px;
   height: 14px; }
