@@ -334,8 +334,7 @@ button:focus {
   background: url(../img/banner/john-towner-JgOeRuGD_Y4-unsplash.jpg);
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;}
+  background-repeat: no-repeat;}
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
