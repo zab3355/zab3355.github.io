@@ -327,14 +327,15 @@ button:focus {
 /* Home Banner Area css
 ============================================================================================ */
 .banner-area .single_slide_banner {
-  background-size: cover;
+  background-size: fixed;
   background-repeat: no-repeat; 
 }
 .banner-area .slide_bg1 {
   background: url(../img/banner/john-towner-JgOeRuGD_Y4-unsplash.jpg);
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-repeat: no-repeat;}
+  background-repeat: no-repeat;
+  background-size: fixed;}
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
@@ -390,7 +391,7 @@ button:focus {
     width: 100%;
     min-height: 400px;
     background-image: url(../img/banner/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg);
-    background-size: cover;
+    background-size: fixed;
     z-index: 1; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -2718,7 +2719,7 @@ h6 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;}
+  background-size: fixed;}
   .newsletter-area .main-title h1 {
     color: #fff; }
     .newsletter-area .main-title h1:before {
