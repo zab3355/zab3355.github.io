@@ -2729,11 +2729,51 @@ h6 {
 ============================================================================================ */
 /* Start Newsletter Area css
 ============================================================================================ */
+.primary-btn-news {
+    display: inline-block;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 46px;
+    padding: 0 40px;
+    outline: none !important;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.primary-btn-news:hover {
+    display: inline-block;
+    color: #ff7100;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 46px;
+    padding: 0 40px;
+    outline: none !important;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid #ff7100;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
 .newsletter-area {
   background-image: url(../img/banner/view.jpg);
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
   .newsletter-area .main-title h1 {
