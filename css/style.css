@@ -2733,6 +2733,7 @@ h6 {
   background-image: url(../img/banner/view.jpg);
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
 }
   .newsletter-area .main-title h1 {
