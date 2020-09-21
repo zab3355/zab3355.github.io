@@ -1,3 +1,7 @@
+var cors = require('cors')
+
+app.use(cors()); // Use this after the variable declaration
+
 $(document).ready(function(){
 
     (function($) {
@@ -58,7 +62,7 @@ $(document).ready(function(){
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
-                    url:"contact_process.php",
+                    url:"https://formspree.io/xvovoaqq",
                     success: function() {
                         $('#contactForm :input').attr('disabled', 'disabled');
                         $('#contactForm').fadeTo( "slow", 1, function() {
