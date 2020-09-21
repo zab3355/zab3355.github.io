@@ -551,12 +551,7 @@ button:focus {
       transition: all 0.4s ease 0s;
       text-transform: uppercase;
       cursor: pointer; 
-  background: #000;
-  background: -moz-linear-gradient(-45deg, #000000 0%, #000000 25%, #1e539e 50%, #ff3083 75%, #7800a8 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #000000 0%,#000000 25%,#1e539e 50%,#ff3083 75%,#7800a8 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #000000 0%,#000000 25%,#1e539e 50%,#ff3083 75%,#7800a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  background-size: 400% 400%;
-  background-repeat: no-repeat;}
+}
     .projects_item .projects_text p {
       margin-bottom: 0px;
       font-size: 15px;
