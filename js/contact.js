@@ -51,7 +51,7 @@ $(document).ready(function(){
                 },
                 message: {
                     required: "Please fill out a message here.",
-                    minlength: "thats all? really?"
+                    minlength: "Please add more to your message before sending."
                 }
             },
             submitHandler: function(form) {
