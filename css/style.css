@@ -424,7 +424,7 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 400px;
-    background-image: url(../img/banner/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg);
+    background-image: url(../img/banner-pages.jpg);
     background-size: fixed;
     z-index: 1; 
   /* Create the parallax scrolling effect */
