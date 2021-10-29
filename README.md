@@ -5,6 +5,5 @@ Here you can view my web design/development portfolio! This showcases my project
 
 Thank you!
 
-
-[](https://zabrown.com/img/about-img.png)
+[Picture-of-Me]: https://zabrown.com/img/about-img.png
 
