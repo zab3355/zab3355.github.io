@@ -10,7 +10,12 @@ $peakopacity:0.7;
         background-repeat: no-repeat;
     }
     .slide_bg1 {
-        background: url(../img/banner/banner-bg-view.jpg);
+        height: 100%; 
+        background: url("../img/header/vd-photography-G6KJlCmDS08-unsplash.jpg");
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        background-size: cover; 
+        background-position: 50% 50%; 
     }
     .fullscreen {
         @media (max-width: 991px) {
