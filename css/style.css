@@ -47,6 +47,9 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700; }
+  h6:focus{
+    color: white;
+  }
 
 .list {
   list-style: none;
@@ -390,7 +393,13 @@ button:focus {
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;}
+  background-size: cover;
+}
+@media (max-width: 600px) {
+  .slide_bg {
+    background-position: 0%; 
+  }
+}
 
 .banner-content {
   text-align: center; }
@@ -446,6 +455,22 @@ button:focus {
   background-position: top-center;
   background-repeat: no-repeat;
   background-size: cover;}
+  @media (max-width: 550px){
+    .banner_area .banner_inner {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      min-height: 400px;
+      background-image: url(../img/banner/mobile-proj-bg.jpg);
+      background-size: fixed;
+      z-index: 1; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top-center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+  }
     .banner_area .banner_inner .banner_content h1 {
       color: #fff;
       font-size: 60px;
