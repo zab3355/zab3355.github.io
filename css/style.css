@@ -395,13 +395,13 @@ button:focus {
   background-size: cover; 
   background-position: 50% 50%; 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (max-width: 600px) {
-  .slide_bg {
+  .slide_bg1 {
     background-position: 0%; 
+    background-attachment: scroll;
   }
 }
 
