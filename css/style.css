@@ -446,8 +446,8 @@ button:focus {
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 400px;
-    background-image: url(../img/banner-pages.jpg);
+    min-height: 450px;
+    background-image: url(../img/banner/desktop-proj-bg.jpg);
     background-size: fixed;
     z-index: 1; 
   /* Create the parallax scrolling effect */
@@ -462,10 +462,6 @@ button:focus {
       width: 100%;
       min-height: 400px;
       background-image: url(../img/banner/mobile-proj-bg.jpg);
-      background-repeat: no-repeat; 
-      background-attachment: fixed;
-      background-size: cover; 
-      background-position: 50% 50%; 
       background-size: fixed;
       z-index: 1; 
     /* Create the parallax scrolling effect */
