@@ -38,6 +38,10 @@ body {
 html,
 body {
   height: 100%; }
+  
+  iframe {
+    width: 100%;
+  }
 
 h1,
 h2,
@@ -2862,6 +2866,14 @@ h6 {
       background: #fff; }
   .newsletter-area .main-title p {
     color: #fff; }
+
+    @media (max-width: 650px){
+      .newsletter-area {
+        background-attachment: scroll;
+      background-position: top;
+      background-size: unset;
+      }
+    }
 
 .newsletter_form .navbar-form {
   width: 100%;
